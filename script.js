@@ -38,6 +38,9 @@ document.getElementById("fill").addEventListener("click", function(){
   if(!name.includes(" ")){
     window.alert("Please enter your full name.")
   }
+  else if(!email.includes(".")){
+    window.alert("Please follow the given email format: Xyz@abc.com")
+  }
   else{
     window.alert(data)
     document.getElementById("popup").style.display = "none";
