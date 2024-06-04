@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 body {
-  background-image: url(BGIMG.jpg);
+  background-image: url(Images/BGIMG.jpg);
   background-size: cover;
   position: relative;
   margin: 0;
@@ -101,17 +101,22 @@ footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  z-index: 5;
 }
 footer p {
   font-size: 22px;
   margin-left: 20px;
   margin-right: 20px;
 }
-.socials a {
-  color: black;
-  text-decoration: none;
+.socials img {
+  cursor: pointer;
+  height: 33px;
+  width:35px;
+  margin-right: 50px;
 }
-.socials a:hover {
-  color: blue;
-  text-decoration: underline;
+.socials img:hover {
+  transform: scale(1.2);
+}
+#discord:hover {
+  transform: scale(1.3);
 }
